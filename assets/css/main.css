@@ -1918,7 +1918,9 @@ input, select, textarea {
 	}
 
 		.box.style1 {
-			padding: 3em 2em 3.5em 2em;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 		}
 
 			.box.style1 h3 {
@@ -1936,6 +1938,24 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+
+/*
+	.box.style1 {
+			padding: 3em 2em 3.5em 2em;
+		}
+
+		.box.style1 {
+			max-width: 32em;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		.box.style2 {
+			max-width: 32em;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}		
+*/
 
 /* Icons */
 
@@ -2364,18 +2384,6 @@ input, select, textarea {
 					top: 20px;
 					margin: -50px 0 50px -40px;
 					width: auto;
-				}
-
-				.box.style1 {
-					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
-				}
-
-				.box.style2 {
-					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
 				}
 
 		/* Wrappers */
