@@ -1922,15 +1922,20 @@ input, select, textarea {
 	}
 
 		.box.style1 {
-  			min-height: 320px;
-  			display: flex;
-  			flex-direction: column;
- 			justify-content: space-between;
+			max-width: 32em;
+			margin-left: auto !important;
+			margin-right: auto !important;
 		}
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
+
+		.box.style2 {
+			max-width: 32em;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}	
 
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
@@ -1949,17 +1954,15 @@ input, select, textarea {
 			padding: 3em 2em 3.5em 2em;
 		}
 
-		.box.style1 {
-			max-width: 32em;
-			margin-left: auto !important;
-			margin-right: auto !important;
+
+			.box.style1 {
+  			min-height: 320px;
+  			display: flex;
+  			flex-direction: column;
+ 			justify-content: space-between;
 		}
 
-		.box.style2 {
-			max-width: 32em;
-			margin-left: auto !important;
-			margin-right: auto !important;
-		}		
+	
 */
 
 /* Icons */
