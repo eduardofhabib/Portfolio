@@ -295,6 +295,10 @@ input, select, textarea {
 			box-sizing: border-box;
 		}
 
+		.row > div {
+  			display: flex;
+		}
+
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
 		}
@@ -1918,6 +1922,7 @@ input, select, textarea {
 	}
 
 		.box.style1 {
+			height: 100%;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
