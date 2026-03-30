@@ -1922,10 +1922,10 @@ input, select, textarea {
 	}
 
 		.box.style1 {
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
+  			min-height: 320px;
+  			display: flex;
+  			flex-direction: column;
+ 			justify-content: space-between;
 		}
 
 			.box.style1 h3 {
