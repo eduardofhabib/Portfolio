@@ -1925,6 +1925,10 @@ input, select, textarea {
 			max-width: 32em;
 			margin-left: auto !important;
 			margin-right: auto !important;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			flex: 1;
 		}
 
 			.box.style1 h3 {
@@ -1935,6 +1939,10 @@ input, select, textarea {
 			max-width: 32em;
 			margin-left: auto !important;
 			margin-right: auto !important;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			flex: 1;
 		}	
 
 		.box.style2 h3 {
@@ -1948,22 +1956,6 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
-
-/*
-	.box.style1 {
-			padding: 3em 2em 3.5em 2em;
-		}
-
-
-			.box.style1 {
-  			min-height: 320px;
-  			display: flex;
-  			flex-direction: column;
- 			justify-content: space-between;
-		}
-
-	
-*/
 
 /* Icons */
 
@@ -2137,6 +2129,10 @@ input, select, textarea {
 		text-align: left;
 	}
 
+		#top .row {
+			align-items: center;
+		}
+
 		#top .image {
 			border-radius: 100%;
 			width: 20em;
@@ -2150,11 +2146,14 @@ input, select, textarea {
 
 		#top h1 {
 			margin-top: 0.35em;
+			line-height: 1.25em;
+			margin-bottom: 0.75em;
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
+			padding-left: 2em;
 		}
 
 			#top p a {
