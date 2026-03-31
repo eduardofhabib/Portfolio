@@ -2135,6 +2135,16 @@ input, select, textarea {
 				border-radius: 100%;
 			}
 
+		#top .row > div {
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		#top header {
+			padding-left: 2em;
+			margin-bottom: 0;
+		}
+
 		#top h1 {
 			margin-top: 0.35em;
 			line-height: 1.25em;
